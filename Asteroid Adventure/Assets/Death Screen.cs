@@ -27,4 +27,9 @@ public class NewBehaviourScript2 : MonoBehaviour
     {
         SceneManager.LoadScene("Level");
     }
+    
+    public void ls()
+    {
+        SceneManager.LoadScene("LevelSelect");
+    }
 }
