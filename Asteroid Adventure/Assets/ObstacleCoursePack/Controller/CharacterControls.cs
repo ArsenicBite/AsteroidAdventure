@@ -202,7 +202,7 @@ public class CharacterControls : MonoBehaviour {
     {
         if (other.tag == "Death")
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(4);
         }
 		if (other.tag == "SunGate")
         {
