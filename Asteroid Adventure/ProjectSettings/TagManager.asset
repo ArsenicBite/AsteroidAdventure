@@ -9,6 +9,7 @@ TagManager:
   - Death
   - SunGate
   - SunGate2
+  - Destroy
   layers:
   - Default
   - TransparentFX
