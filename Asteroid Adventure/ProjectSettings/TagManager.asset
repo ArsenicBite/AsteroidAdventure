@@ -10,6 +10,8 @@ TagManager:
   - SunGate
   - SunGate2
   - Destroy
+  - Button
+  - Sun
   layers:
   - Default
   - TransparentFX

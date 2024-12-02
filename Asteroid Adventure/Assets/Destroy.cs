@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Destroy : MonoBehaviour
 {
@@ -15,11 +16,12 @@ public class Destroy : MonoBehaviour
     {
         
     }
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.collider.CompareTag("Destroy"))
+        if (other.tag == "Destroy")
         {
-            Destroy(collision.gameObject);  
+            Destroy(other.gameObject);
         }
+
     }
 }

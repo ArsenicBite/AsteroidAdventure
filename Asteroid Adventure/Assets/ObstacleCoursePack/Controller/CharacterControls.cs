@@ -212,6 +212,15 @@ public class CharacterControls : MonoBehaviour {
         {
             SceneManager.LoadScene(3);
         }
+        if (other.tag == "Button")
+        {
+            SceneManager.LoadScene(6);
+        }
+        if (other.tag == "Sun")
+        {
+            SceneManager.LoadScene(7);
+        }
+
 
     }
 	
